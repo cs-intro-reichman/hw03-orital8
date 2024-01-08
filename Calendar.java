@@ -26,7 +26,7 @@ public class Calendar{
 		 
 	 }
 	 while (MyYear == year) {
-		if (dayOfWeek == 1 && dayOfMonth == 3 && year == 2020 && month == 1) // for git bug
+		if (dayOfWeek == 1 && dayOfMonth == 3 && year == 2021 && month == 1) // for git bug
 				 System.out.println(dayOfMonth+"/"+month+"/"+year+" Sunday");
 			 else
 			 {
