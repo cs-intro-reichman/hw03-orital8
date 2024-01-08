@@ -26,7 +26,9 @@ public class Calendar{
 		 
 	 }
 	 while (MyYear == year) {
-	 	
+	 	if (dayOfWeek == 1 && dayOfMonth == 1)
+				 System.out.println(dayOfMonth+"/"+month+"/"+year+" Sunday");
+			 else
 				 System.out.println(dayOfMonth+"/"+month+"/"+year);
 	 		advance();
 	 		debugDaysCounter++;
