@@ -16,7 +16,7 @@ public class LowerCase {
 		String str1 =s ;
         String newS="";
 		int length = str1.length()-1; 
-		int i=0;
+		int i=0; // #feedback - declaring i here is not needed, you can declare it inside the for loop.
 		char c;
 			for (i=0; i<=length;i++){
 			c = str1.charAt(i);
